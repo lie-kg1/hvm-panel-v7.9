@@ -415,7 +415,7 @@ journalctl -u ${SERVICE_NAME} -f
 
 ONE LINE INSTALLER
 
-bash <(curl -fsSL https://raw.githubusercontent.com/lie-kg/hvm-panel/main/installer.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/lie-kg1/hvm-panel/main/installer.sh)
 
 ════════════════════════════════════════════════════════
 

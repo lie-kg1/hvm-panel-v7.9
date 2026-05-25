@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # =========================================================
-# HVM PANEL V8 ULTRA INSTALLER
+# HVM PANEL V7.9 ULTRA INSTALLER
 # =========================================================
 
 set -euo pipefail
@@ -75,7 +75,7 @@ cat << "EOF"
 ██║  ██║ ╚████╔╝ ██║ ╚═╝ ██║
 ╚═╝  ╚═╝  ╚═══╝  ╚═╝     ╚═╝
 
-        HVM PANEL V8 ULTRA INSTALLER
+        HVM PANEL V7.8 ULTRA INSTALLER
 
 EOF
 
@@ -295,7 +295,7 @@ if command -v systemctl >/dev/null 2>&1; then
 
 cat > /etc/systemd/system/${SERVICE_NAME}.service << EOF
 [Unit]
-Description=HVM Panel V8
+Description=HVM Panel V7.9
 After=network-online.target
 Wants=network-online.target
 
